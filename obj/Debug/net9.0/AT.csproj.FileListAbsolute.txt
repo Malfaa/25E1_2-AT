@@ -1,0 +1,15 @@
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/bin/Debug/net9.0/AT
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/bin/Debug/net9.0/AT.deps.json
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/bin/Debug/net9.0/AT.runtimeconfig.json
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/bin/Debug/net9.0/AT.dll
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/bin/Debug/net9.0/AT.pdb
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/obj/Debug/net9.0/AT.GeneratedMSBuildEditorConfig.editorconfig
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/obj/Debug/net9.0/AT.AssemblyInfoInputs.cache
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/obj/Debug/net9.0/AT.AssemblyInfo.cs
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/obj/Debug/net9.0/AT.csproj.CoreCompileInputs.cache
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/obj/Debug/net9.0/AT.sourcelink.json
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/obj/Debug/net9.0/AT.dll
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/obj/Debug/net9.0/refint/AT.dll
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/obj/Debug/net9.0/AT.pdb
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/obj/Debug/net9.0/AT.genruntimeconfig.cache
+/home/marufa/Developer/Engenharia_de_software/Fundamentos_de_Desenvolvimento_com_C#/AT/obj/Debug/net9.0/ref/AT.dll
