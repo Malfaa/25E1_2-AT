@@ -1,7 +1,13 @@
 ﻿using AT.Parte2;
 using AT.Parte3;
 using AT.Parte4;
+using AT.Parte4.Exercicio7;
+using AT.Parte4.Exercicio8;
 using AT.Parte5;
+using AT.Parte5.Exercicio10;
+using AT.Parte5.Exercicio11;
+using AT.Parte5.Exercicio12;
+using AT.Parte5.Exercicio9;
 
 namespace AT;
 
@@ -58,16 +64,24 @@ class Program
                     exercicio5.TempoRestante();
                     break;
                 case 6:
-                    Exercicio6 exercicio6 = new();
-                    exercicio6.CadastroAlunos();
+                    Aluno exercicio6 = new("Gustavo", "matricula", "Engenharia de Software", 7);
+                    exercicio6.ExibirDados();
+                    Console.WriteLine(exercicio6.VerificarAprovacao());
                     break;
                 case 7:
-                    Exercicio7 exercicio7 = new();
-                    exercicio7.BancoDigital();
+                    ContaBancaria exercicio7 = new("Gustavo", 100);
+                    exercicio7.Depositar(500);
+                    exercicio7.ExibirSaldo();
+                    exercicio7.Sacar(700);
+                    exercicio7.Sacar(300);
+                    exercicio7.ExibirSaldo();
+                    exercicio7.Depositar(-300);
                     break;
                 case 8:
-                    Exercicio8 exercicio8 = new();
-                    exercicio8.CadastroFunc();
+                    Funcionario func = new("Leandro", "Dev", 1800);
+                    Gerente ger = new("Gustavo", "Dev", 1500);
+                    func.ExibirDados();
+                    ger.ExibirDados();
                     break;
                 case 9:
                     Exercicio9 exercicio9 = new();

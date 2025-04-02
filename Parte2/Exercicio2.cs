@@ -7,7 +7,7 @@ public class Exercicio2
 {
     public void ManipulacaoString()
     {
-        Console.WriteLine("Escreva seu nome: ");
+        Console.Write("Escreva seu nome: ");
         string nome = Console.ReadLine()!;
    
         string[] alfabetoMa =
@@ -21,34 +21,33 @@ public class Exercicio2
         ]; 
    
         string[] novoNome = new string[nome.Length]; 
-        int index = 0; //Auxiliar para o índex do novoNome
-        // int indexLista=0;//Auxiliar para o índex do array em loop.
+        int index = 0;
         foreach (var i in nome)
         {
             if (i == ' ') 
             {
-                novoNome[index] = " "; // Mantém o espaço
+                novoNome[index] = " ";
                 index++;
-                continue; // Pula para o próximo caractere
+                continue; 
             }
-            string iToString = i.ToString().Normalize(NormalizationForm.FormD); //Ignorando acentuação
+            string ignoraAcento = i.ToString().Normalize(NormalizationForm.FormD);
             Regex regex = new Regex("[^a-zA-Z]");
-            iToString = regex.Replace(iToString, "");
+            ignoraAcento = regex.Replace(ignoraAcento, "");
                
-            int novoIndexMa = Array.IndexOf(alfabetoMa, iToString);
-   
+            // Verifica letras maiusculas
+            int novoIndexMa = Array.IndexOf(alfabetoMa, ignoraAcento);
             if (novoIndexMa >= 0)
             {
-                novoNome[index] = alfabetoMa[(novoIndexMa + 2) % alfabetoMa.Length]; // Calcula o novo índice
+                novoNome[index] = alfabetoMa[(novoIndexMa + 2) % alfabetoMa.Length];
                 index++;
-                continue; // Pula para o próximo caractere
+                continue;
             }
    
             // Verifica letras minúsculas
-            int novoIndexMi = Array.IndexOf(alfabetoMi, iToString);
+            int novoIndexMi = Array.IndexOf(alfabetoMi, ignoraAcento);
             if (novoIndexMi >= 0)
             {
-                novoNome[index] = alfabetoMi[(novoIndexMi + 2) % alfabetoMi.Length]; // Calcula o novo índice
+                novoNome[index] = alfabetoMi[(novoIndexMi + 2) % alfabetoMi.Length];
                 index++;
             }
         }
